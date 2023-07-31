@@ -21,7 +21,8 @@ function getUserValue() {
 }
 async function showWeather() {
 	const response = await fetch(
-		`http://api.weatherapi.com/v1/current.json?key=abe35ea518404fca9b1122150232907&q=${cityInput}&aqi=no`,
+		`https://api.weatherapi.com/v1/current.json?key=abe35ea518404fca9b1122150232907&q=${cityInput}&aqi=no
+		`,
 		{ mode: 'cors' }
 	);
 	const current = response.json().then(function (response) {

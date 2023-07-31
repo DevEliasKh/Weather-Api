@@ -1,2 +1,3 @@
 # Weather-Api
-A project based od the odin project
+
+live Preview https://develiaskh.github.io/Weather-Api/
